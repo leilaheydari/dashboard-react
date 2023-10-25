@@ -1,6 +1,7 @@
 import './auth.scss';
 import { useState } from "react";
 
+
 const Authentication = () => {
     const [action , setAction]= useState("singin");
     return (
@@ -10,18 +11,13 @@ const Authentication = () => {
                 <span className="square" ></span>
                 </div>
                 <div className="left">
+        
                     <form>
                         <div>
-                             
-                            
                             <input type='text' />
-                            
-                          
                         </div>
-                        <div>
-                                
+                        <div> 
                             <input type='password' />
-                          
                         </div>
                         <button>ورود</button>
                     </form>
